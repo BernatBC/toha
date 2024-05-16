@@ -16,6 +16,7 @@ p {
   text-justify: inter-word;
 }
 
+h6,
 input {
   color: get-light-color('text-color');
 }
@@ -80,10 +81,8 @@ html[data-theme='dark'] {
     color: get-dark-color('heading-color') !important;
   }
 
-  p {
-    color: get-dark-color('text-color');
-  }
-
+  p,
+  h6,
   input {
     color: get-dark-color('text-color');
   }
